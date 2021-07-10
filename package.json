@@ -1,26 +1,24 @@
 {
   "name": "chess-robot",
-  "version": "1.0.0",
-  "description": "",
+  "version": "2.0.0",
+  "description": "Automated chess board game",
   "main": "index.js",
-  "dependencies": {
-    "socket.io": "^2.0.4"
-  },
-  "devDependencies": {
-    "webpack": "^4.2.0"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./server/index.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sudhir-yadav/chess-robot.git"
+    "url": "git+https://github.com/sudhir-yadav/Chess-Robot.git"
   },
-  "author": "Sudhir",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sudhir-yadav/chess-robot/issues"
+    "url": "https://github.com/sudhir-yadav/Chess-Robot/issues"
   },
-  "homepage": "https://github.com/sudhir-yadav/chess-robot#readme"
+  "homepage": "https://github.com/sudhir-yadav/Chess-Robot#readme",
+  "devDependencies": {
+    "react-scripts": "^4.0.3"
+  }
 }
